@@ -47,6 +47,6 @@
 
   <project path="device/xiaomi/creek-kernel"
            name="nuruszama/android_kernel_xiaomi_creek"
-           remote="github" revision="Android-16" />
+           remote="github" revision="android-16" />
 
 </manifest>
