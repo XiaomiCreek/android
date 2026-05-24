@@ -39,13 +39,13 @@
 
   <project path="hardware/xiaomi"
            name="LineageOS/android_hardware_xiaomi"
-           remote="github" revision="lineage-23.2"
+           remote="github" revision="lineage-23.2">
 
   <project path="device/xiaomi/creek"
            name="nuruszama/android_device_xiaomi_creek"
            remote="github" revision="lineage-23.2" />
 
-    <project path="vendor/xiaomi/creek"
+  <project path="vendor/xiaomi/creek"
            name="nuruszama/android_vendor_xiaomi_creek"
            remote="github" revision="lineage-23.2" />
 
