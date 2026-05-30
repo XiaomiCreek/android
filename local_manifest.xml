@@ -31,6 +31,4 @@
     <!-- Hardware -->
     <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="LineageOS" revision="lineage-23.2" />
 
-/>
-
 </manifest>
