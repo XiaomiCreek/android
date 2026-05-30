@@ -29,9 +29,13 @@
            name="sapphire-sm6225/hardware_qcom_media" 
            remote="github" revision="lineage-22.0-caf-sm6225" />
 
+  <project path="device/qcom/sm6225/sepolicy_vndr" 
+           name="sapphire-sm6225/device_qcom_sepolicy_vndr_sm6225"
+           remote="github" revision="15" />
+  
   <project path="device/xiaomi/sepolicy" 
            name="sapphire-sm6225/device_xiaomi_sepolicy"
-           remote="github" revision="16" />
+           remote="github" revision="15" />
 
   <project path="hardware/xiaomi"
            name="LineageOS/android_hardware_xiaomi"
