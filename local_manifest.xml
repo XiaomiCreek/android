@@ -33,7 +33,7 @@
            name="sapphire-sm6225/device_qcom_sepolicy_vndr_sm6225"
            remote="github" revision="15" />
   
-  <project path="device/xiaomi/sepolicy" 
+  <project path="device/xiaomi/sm6225/sepolicy" 
            name="sapphire-sm6225/device_xiaomi_sepolicy"
            remote="github" revision="15" />
 
