@@ -5,12 +5,15 @@
     <!-- Remotes -->
     <remote name="sapphire-sm6225" fetch="https://github.com/sapphire-sm6225" clone-depth="1" />
     <remote name="nuruszama" fetch="https://github.com/nuruszama" clone-depth="1" />
+    <remote name="xiaomi-creek" fetch="https://github.com/xiaomi-creek" clone-depth="1" />
     <remote name="saroj-nokia" fetch="https://github.com/saroj-nokia" clone-depth="1" />
     <remote name="Saroj-Tajpuriya" fetch="https://gitlab.com/Saroj-Tajpuriya" clone-depth="1" />
     <remote name="LineageOS" fetch="https://github.com/LineageOS" clone-depth="1" />
 
+    <!-- Kernel -->
+    <project path="device/xiaomi/creek-kernel" name="device_xiaomi_creek-kernel" remote="xiaomi-creek" revision="bq2" />
+
     <!-- Device -->
-    <project path="device/xiaomi/creek-kernel" name="android_kernel_xiaomi_creek" remote="nuruszama" revision="android-16" />
     <project path="device/xiaomi/sepolicy" name="device_xiaomi_sepolicy" remote="sapphire-sm6225" revision="16" />
     <project path="device/xiaomi/creek" name="android_device_xiaomi_creek" remote="nuruszama" revision="lineage-23.2" />
     <project path="device/qcom/sepolicy_vndr/sm6225" name="device_qcom_sepolicy_vndr" remote="sapphire-sm6225" revision="lineage-23.0-caf-sm6225" />
