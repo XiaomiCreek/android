@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-<!-- Generated using sounddrill31/actions_generate_local_manifests -->
 
     <!-- Remotes -->
     <remote name="sapphire-sm6225" fetch="https://github.com/sapphire-sm6225" clone-depth="1" />
