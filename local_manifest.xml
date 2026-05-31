@@ -10,7 +10,7 @@
     <remote name="LineageOS" fetch="https://github.com/LineageOS" clone-depth="1" />
 
     <!-- Kernel -->
-    <project path="device/xiaomi/creek-kernel" name="device_xiaomi_creek-kernel" remote="xiaomi-creek" revision="bq2" />
+    <project path="device/xiaomi/creek-kernel" name="android_kernel_xiaomi_creek" remote="nuruszama" revision="android-16" />
 
     <!-- Device -->
     <project path="device/xiaomi/sepolicy" name="device_xiaomi_sepolicy" remote="sapphire-sm6225" revision="16" />
