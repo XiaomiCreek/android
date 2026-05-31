@@ -9,26 +9,27 @@
     <remote name="Saroj-Tajpuriya" fetch="https://gitlab.com/Saroj-Tajpuriya" clone-depth="1" />
     <remote name="LineageOS" fetch="https://github.com/LineageOS" clone-depth="1" />
 
-    <!-- Removals -->
-
-    <!-- Repos -->
     <!-- Device -->
     <project path="device/xiaomi/creek-kernel" name="android_kernel_xiaomi_creek" remote="nuruszama" revision="android-16" />
     <project path="device/xiaomi/sepolicy" name="device_xiaomi_sepolicy" remote="sapphire-sm6225" revision="16" />
     <project path="device/xiaomi/creek" name="android_device_xiaomi_creek" remote="nuruszama" revision="lineage-23.2" />
-
-    <!-- Device - Common -->
-
-    <!-- Kernel -->
+    <project path="device/qcom/sepolicy_vndr/sm6225" name="device_qcom_sepolicy_vndr" remote="sapphire-sm6225" revision="lineage-23.0-caf-sm6225" />
 
     <!-- Vendor -->
     <project path="vendor/xiaomi/creek" name="android_vendor_xiaomi_creek" remote="nuruszama" revision="lineage-23.2" />
     <project path="vendor" name="keys-for-lineage20" remote="saroj-nokia" revision="main" />
     <project path="vendor/gapps" name="vendor_gapps" remote="Saroj-Tajpuriya" revision="baklava" />
+    <project path="vendor/qcom/opensource/healthd-ext" name="android_vendor_qcom_opensource_healthd-ext" remote="sapphire-sm6225" revision="lineage-23.2" />
+    
 
-
-    <!-- Vendor - Common -->
     <!-- Hardware -->
     <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="LineageOS" revision="lineage-23.2" />
-
+    <project path="hardware/qcom-caf/sm6225/audio/agm" name="vendor_qcom_opensource_agm" remote="sapphire-sm6225" revision="lineage-22.2-caf-sm6225" />
+    <project path="hardware/qcom-caf/sm6225/audio/pal" name="vendor_qcom_opensource_arpal-lx" remote="sapphire-sm6225" revision="lineage-22.0-caf-sm6225" />
+    <project path="hardware/qcom-caf/sm6225/data-ipa-cfg-mgr" name="vendor_qcom_opensource_data-ipa-cfg-mgr" remote="sapphire-sm6225" revision="lineage-22.0-caf-sm6225" />
+    <project path="hardware/qcom-caf/sm6225/dataipa" name="vendor_qcom_opensource_dataipa" remote="sapphire-sm6225" revision="lineage-22.0-caf-sm6225" />
+    <project path="hardware/qcom-caf/sm6225/display" name="hardware_qcom_display" remote="sapphire-sm6225" revision="lineage-22.0-caf-sm6225" />
+    <project path="hardware/qcom-caf/sm6225/media" name="hardware_qcom_media" remote="sapphire-sm6225" revision="lineage-22.0-caf-sm6225" />
+    <project path="hardware/qcom-caf/sm6225/audio/primary-hal" name="hardware_qcom_audio" remote="sapphire-sm6225" revision="lineage-22.0-caf-sm6225" />
+    
 </manifest>
