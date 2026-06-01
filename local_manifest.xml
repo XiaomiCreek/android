@@ -20,6 +20,7 @@
     <project path="vendor/xiaomi/creek" name="android_vendor_xiaomi_creek" remote="nuruszama" revision="lineage-23.2" />
     <project path="vendor" name="keys-for-lineage20" remote="saroj-nokia" revision="main" />
     <project path="vendor/gapps" name="vendor_gapps" remote="Saroj-Tajpuriya" revision="baklava" />
+    <project path="vendor/xiaomi/camera" name="proprietary-vendor-xiaomi-camera " remote="Saroj-Tajpuriya" revision="baklava" />
 
     <!-- Hardware -->
     <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="LineageOS" revision="lineage-23.2" />
