@@ -2,27 +2,27 @@
 <manifest>
 
     <!-- Remotes -->
-    <remote name="sapphire-sm6225" fetch="https://github.com/sapphire-sm6225" clone-depth="1" />
-    <remote name="nuruszama" fetch="https://github.com/nuruszama" clone-depth="1" />
+    <remote name="lycodump" fetch="https://github.com/lycodump" clone-depth="1" />
     <remote name="xiaomi-creek" fetch="https://github.com/xiaomi-creek" clone-depth="1" />
-    <remote name="saroj-nokia" fetch="https://github.com/saroj-nokia" clone-depth="1" />
-    <remote name="Saroj-Tajpuriya" fetch="https://gitlab.com/Saroj-Tajpuriya" clone-depth="1" />
     <remote name="LineageOS" fetch="https://github.com/LineageOS" clone-depth="1" />
+    <remote name="saroj-nokia" fetch="https://github.com/saroj-nokia" clone-depth="1" />
 
     <!-- Kernel -->
-    <project path="device/xiaomi/creek-kernel" name="android_kernel_xiaomi_creek" remote="nuruszama" revision="android-16" />
+    <project path="device/xiaomi/creek-kernel" name="device_xiaomi_creek-kernel" remote="xiaomi-creek" revision="bq2" />
 
     <!-- Device -->
-    <project path="device/xiaomi/sepolicy" name="device_xiaomi_sepolicy" remote="sapphire-sm6225" revision="16" />
-    <project path="device/xiaomi/creek" name="android_device_xiaomi_creek" remote="nuruszama" revision="lineage-23.2" />
+    <project path="device/xiaomi/creek" name="device_xiaomi_creek" remote="xiaomi-creek" revision="bq2" />
+    <project path="device/xiaomi/sm6225-common" name="device_xiaomi_sm6225-common" remote="xiaomi-creek" revision="bq2" />
+    
     
     <!-- Vendor -->
-    <project path="vendor/xiaomi/creek" name="android_vendor_xiaomi_creek" remote="nuruszama" revision="lineage-23.2" />
+    <project path="vendor/xiaomi/creek" name="vendor_xiaomi_creek" remote="xiaomi-creek" revision="bq2" />
+    <project path="vendor/xiaomi/sm6225-common" name="vendor_xiaomi_sm6225-common" remote="xiaomi-creek" revision="bq2" />
     <project path="vendor" name="keys-for-lineage20" remote="saroj-nokia" revision="main" />
-    <project path="vendor/gapps" name="vendor_gapps" remote="Saroj-Tajpuriya" revision="baklava" />
-    <project path="vendor/xiaomi/camera" name="proprietary-vendor-xiaomi-camera" remote="Saroj-Tajpuriya" revision="vauxite-sm6225" />
 
     <!-- Hardware -->
     <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="LineageOS" revision="lineage-23.2" />
 
+    <project path="device/xiaomi/sepolicy" name="device_xiaomi_sepolicy" remote="sapphire-sm6225" revision="16" />
+    
 </manifest>
