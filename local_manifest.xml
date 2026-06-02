@@ -2,9 +2,9 @@
 <manifest>
 
     <!-- Removes -->
-    <remove-project name="LineageOS/android_hardware_xiaomi" />
-    <remove-project name="LineageOS/android_hardware_qcom_display" />
-    <remove-project name="LineageOS/android_hardware_qcom-caf_common" />
+    <remove-project name="LineageOS/android_hardware_xiaomi" force="true" />
+    <remove-project name="LineageOS/android_hardware_qcom_display" force="true" />
+    <remove-project name="LineageOS/android_hardware_qcom-caf_common" force="true" />
 
     <!-- Remotes -->
     <remote name="lycodump" fetch="https://github.com/lycodump" clone-depth="1" />
