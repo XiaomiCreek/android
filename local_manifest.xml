@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-    <!-- Removes -->
-    <remove-project name="LineageOS/android_hardware_xiaomi" force="true" />
-    <remove-project name="LineageOS/android_hardware_qcom_display" force="true" />
-    <remove-project name="LineageOS/android_hardware_qcom-caf_common" force="true" />
+    <!-- Remotes -->
+    <remote name="lycodump" fetch="https://github.com/lycodump" clone-depth="1" />
+    <remote name="xiaomi-creek" fetch="https://github.com/xiaomi-creek" clone-depth="1" />
+    <remote name="saroj-nokia" fetch="https://github.com/saroj-nokia" clone-depth="1" />
 
     <!-- Kernel -->
     <project path="device/xiaomi/creek-kernel" name="device_xiaomi_creek-kernel" remote="xiaomi-creek" revision="bq2" />
