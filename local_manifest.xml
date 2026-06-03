@@ -6,11 +6,6 @@
     <remove-project name="LineageOS/android_hardware_qcom_display" force="true" />
     <remove-project name="LineageOS/android_hardware_qcom-caf_common" force="true" />
 
-    <!-- Remotes -->
-    <remote name="lycodump" fetch="https://github.com/lycodump" clone-depth="1" />
-    <remote name="xiaomi-creek" fetch="https://github.com/xiaomi-creek" clone-depth="1" />
-    <remote name="saroj-nokia" fetch="https://github.com/saroj-nokia" clone-depth="1" />
-
     <!-- Kernel -->
     <project path="device/xiaomi/creek-kernel" name="device_xiaomi_creek-kernel" remote="xiaomi-creek" revision="bq2" />
 
@@ -26,21 +21,5 @@
     <!-- Camera -->
     <project path="device/xiaomi/miuicamera" name="device_xiaomi_miuicamera-sapphire" remote="lycodump" revision="main" />
     <project path="vendor/xiaomi/miuicamera" name="vendor_xiaomi_miuicamera-sapphire" remote="lycodump" revision="main" />
-
-    <!-- Hardware -->
-    <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="lycodump" revision="lineage-22.2" />
-    <project path="hardware/qcom-caf/sm6225/dataipa" name="hardware_qcom-caf_sm6225_dataipa" remote="lycodump" revision="16-qpr2" />
-    <project path="hardware/qcom-caf/sm6225/data-ipa-cfg-mgr" name="hardware_qcom-caf_sm6225_data-ipa-cfg-mgr" remote="lycodump" revision="16-qpr2" />
-    <project path="hardware/qcom/display" name="hardware_qcom_display" remote="lycodump" revision="16-qpr2" />
-    <project path="hardware/qcom-caf/sm6225/audio_pal" name="hardware_qcom-caf_sm6225_audio_pal" remote="lycodump" revision="16-qpr2" />
-    <project path="hardware/qcom-caf/sm6225/audio_agm" name="hardware_qcom-caf_sm6225_audio_agm" remote="lycodump" revision="16-qpr2" />
-    <project path="hardware/qcom-caf/sm6225/audio/primary-hal" name="hardware_qcom-caf_sm6225_audio_primary-hal" remote="lycodump" revision="16-qpr2" />
-    <project path="hardware/qcom-caf/common" name="hardware_qcom-caf_common" remote="lycodump" revision="16" />
-    <project path="hardware/qcom-caf/sm6225/media" name="android_hardware_qcom-caf_sm6225_media" remote="lycodump" revision="16-qpr2" />
-    <project path="hardware/dolby" name="hardware_dolby" remote="lycodump" revision="A16" />
-
-    <!-- SEPolicy -->
-    <project path="device/qcom/sepolicy_vndr/sm6225" name="android_device_qcom_sepolicy_vndr_sm6225" remote="lycodump" revision="16-qpr2" />
-    <project path="device/xiaomi/sepolicy" name="device_xiaomi_sepolicy" remote="lycodump" revision="16" />
 
 </manifest>
