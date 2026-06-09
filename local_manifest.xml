@@ -2,18 +2,17 @@
 <manifest>
 
     <!-- Remotes -->
-    <remote name="xiaomi-creek" fetch="https://github.com/xiaomi-creek" clone-depth="1" />
     <remote name="nuruszama" fetch="https://github.com/nuruszama" clone-depth="1" />
     
     <!-- Kernel -->
-    <project path="device/xiaomi/creek-kernel" name="device_xiaomi_creek-kernel" remote="xiaomi-creek" revision="bq2" />
+    <project path="device/xiaomi/creek-kernel" name="android_kernel_xiaomi_creek" remote="nuruszama" revision="16" />
 
     <!-- Device -->
-    <project path="device/xiaomi/creek" name="device_xiaomi_creek" remote="xiaomi-creek" revision="bq2" />
-    <project path="device/xiaomi/sm6225-common" name="device_xiaomi_sm6225-common" remote="nuruszama" revision="bq2" />
+    <project path="device/xiaomi/creek" name="android_device_xiaomi_creek" remote="nuruszama" revision="16" />
+    <project path="device/xiaomi/sm6225-common" name="android_device_xiaomi_sm6225-common" remote="nuruszama" revision="16" />
     
     <!-- Vendor -->
-    <project path="vendor/xiaomi/creek" name="vendor_xiaomi_creek" remote="xiaomi-creek" revision="bq2" />
-    <project path="vendor/xiaomi/sm6225-common" name="vendor_xiaomi_sm6225-common" remote="xiaomi-creek" revision="bq2" />
+    <project path="vendor/xiaomi/creek" name="android_vendor_xiaomi_creek" remote="nuruszama" revision="16" />
+    <project path="vendor/xiaomi/sm6225-common" name="android_vendor_xiaomi_sm6225-common" remote="nuruszama" revision="16" />
     
 </manifest>
