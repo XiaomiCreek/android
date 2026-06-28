@@ -3,7 +3,7 @@
 
     <!-- Remotes -->
     <remote name="project-creek" fetch="https://github.com/project-creek" clone-depth="1" />
-    <remote name="nururszama" fetch="https://github.com/nururszama" clone-depth="1" />
+    <remote name="nuruszama" fetch="https://github.com/nururszama" clone-depth="1" />
     
     <!-- Kernel -->
     <project path="device/xiaomi/creek-kernel" name="android_kernel_xiaomi_creek" remote="project-creek" revision="16" />
