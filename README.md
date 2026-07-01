@@ -8,7 +8,7 @@ repo init -u https://github.com/LineageOS/android.git -b lineage-23.2 --git-lfs
 ```
 - Evolution-X
 ```
-repo init -u https://github.com/Evolution-X/manifest -b cnb --git-lfs
+repo init -u https://github.com/Evolution-X/manifest -b bka --git-lfs
 ```
 
 # Clone your local manifest for Device
