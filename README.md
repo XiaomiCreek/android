@@ -28,9 +28,9 @@ repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
 . build/envsetup.sh
 ```
 
-- Lunch a target
+- Breakfast the target
 ```
-lunch lineage_codename-cp2a-user
+Breakfast creek user-debug
 ```
 
 - To start compiling
