@@ -13,7 +13,7 @@ repo init -u https://github.com/Evolution-X/manifest -b bka --git-lfs
 
 # Clone your local manifest for Device
 ```
-git clone https://github.com/XiaomiCreek/xiaomi-creek.git -b 16 .repo/local_manifests
+git clone https://github.com/XiaomiCreek/android.git -b 16 .repo/local_manifests
 ```
 
 # Sync up
