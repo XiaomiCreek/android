@@ -3,6 +3,8 @@
 
     <!-- Remotes -->
     <remote name="XiaomiCreek" fetch="https://github.com/XiaomiCreek" clone-depth="1" />
+    <remote name="saroj-nokia" fetch="https://github.com/saroj-nokia" clone-depth="1" />
+    <remote name="LineageOS" fetch="https://github.com/LineageOS" clone-depth="1" />
     
     <!-- Kernel -->
     <project path="device/xiaomi/creek-kernel" name="android_kernel_xiaomi_creek" remote="XiaomiCreek" revision="16" />
@@ -12,5 +14,9 @@
     
     <!-- Vendor -->
     <project path="vendor/xiaomi/creek" name="android_vendor_xiaomi_creek" remote="XiaomiCreek" revision="lineage-23.2" />
+    <project path="vendor" name="keys-for-lineage20" remote="saroj-nokia" revision="main" />
+
+    <!-- Hardware -->
+    <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="LineageOS" revision="lineage-23.2" />
     
 </manifest>
