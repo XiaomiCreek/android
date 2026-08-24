@@ -5,7 +5,6 @@
     <remote name="XiaomiCreek" fetch="https://github.com/XiaomiCreek" clone-depth="1" />
     <remote name="saroj-nokia" fetch="https://github.com/saroj-nokia" clone-depth="1" />
     <remote name="Saroj-Tajpuriya" fetch="https://gitlab.com/Saroj-Tajpuriya" clone-depth="1" />
-    <remote name="LineageOS" fetch="https://github.com/LineageOS" clone-depth="1" />
     
     <!-- Kernel -->
     <project path="device/xiaomi/creek-kernel" name="android_kernel_xiaomi_creek" remote="XiaomiCreek" revision="16" />
@@ -21,7 +20,7 @@
     <project path="vendor/gapps" name="vendor_gapps" remote="Saroj-Tajpuriya" revision="baklava" />
 
     <!-- Hardware -->
-    <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="LineageOS" revision="lineage-23.2" />
+    <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="XiaomiCreek" revision="bka-no-dolby" />
     <project path="hardware/qcom-caf/sm6225/audio/agm" name="hardware_qcom-caf_sm6225_audio_agm" remote="XiaomiCreek" revision="16-qpr2" />
     <project path="hardware/qcom-caf/sm6225/audio/pal" name="hardware_qcom-caf_sm6225_audio_pal" remote="XiaomiCreek" revision="16-qpr2" />
     <project path="hardware/qcom-caf/sm6225/data-ipa-cfg-mgr" name="hardware_qcom-caf_sm6225_data-ipa-cfg-mgr" remote="XiaomiCreek" revision="16-qpr2" />
