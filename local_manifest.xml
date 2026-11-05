@@ -18,6 +18,7 @@
     
     <!-- Vendor -->
     <project path="vendor/xiaomi/creek" name="android_vendor_xiaomi_creek" remote="XiaomiCreek" revision="lineage-23.2" />
+    <project path="vendor/xiaomi/camera" name="android_vendor_xiaomi_camera" remote="XiaomiCreek" revision="bka" />
     <project path="vendor" name="keys-for-lineage20" remote="saroj-nokia" revision="main" />
     <project path="vendor/gapps" name="vendor_gapps" remote="Saroj-Tajpuriya" revision="baklava" />
     
